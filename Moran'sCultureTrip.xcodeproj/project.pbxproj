@@ -18,7 +18,6 @@
 		EEF3A174260710A4008504B3 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3A173260710A4008504B3 /* DataManager.swift */; };
 		EEF3A177260710E0008504B3 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3A176260710E0008504B3 /* Article.swift */; };
 		EEF3A17A2607117C008504B3 /* ArticlesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3A1792607117C008504B3 /* ArticlesList.swift */; };
-		EEF3A18126073105008504B3 /* ArticlesListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3A18026073105008504B3 /* ArticlesListVC.swift */; };
 		EEF3A189260731CE008504B3 /* ArticleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF3A187260731CE008504B3 /* ArticleCell.swift */; };
 		EEF3A18A260731CE008504B3 /* ArticleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF3A188260731CE008504B3 /* ArticleCell.xib */; };
 /* End PBXBuildFile section */
@@ -37,7 +36,6 @@
 		EEF3A173260710A4008504B3 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		EEF3A176260710E0008504B3 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		EEF3A1792607117C008504B3 /* ArticlesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesList.swift; sourceTree = "<group>"; };
-		EEF3A18026073105008504B3 /* ArticlesListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlesListVC.swift; sourceTree = "<group>"; };
 		EEF3A187260731CE008504B3 /* ArticleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleCell.swift; sourceTree = "<group>"; };
 		EEF3A188260731CE008504B3 /* ArticleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ArticleCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -107,7 +105,6 @@
 			isa = PBXGroup;
 			children = (
 				EEF3A15626070AC2008504B3 /* SceneDelegate.swift */,
-				EEF3A18026073105008504B3 /* ArticlesListVC.swift */,
 				EEF3A16D26070BF0008504B3 /* ArticlesViewController.swift */,
 				EEF3A15426070AC2008504B3 /* AppDelegate.swift */,
 				EEF3A15826070AC2008504B3 /* ViewController.swift */,
@@ -188,7 +185,6 @@
 			files = (
 				EEF3A17A2607117C008504B3 /* ArticlesList.swift in Sources */,
 				EEF3A177260710E0008504B3 /* Article.swift in Sources */,
-				EEF3A18126073105008504B3 /* ArticlesListVC.swift in Sources */,
 				EEF3A1712607103F008504B3 /* ServerManager.swift in Sources */,
 				EEF3A174260710A4008504B3 /* DataManager.swift in Sources */,
 				EEF3A15926070AC2008504B3 /* ViewController.swift in Sources */,

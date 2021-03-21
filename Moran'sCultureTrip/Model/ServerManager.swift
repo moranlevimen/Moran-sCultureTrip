@@ -9,7 +9,7 @@ import Foundation
 class ServerManager{
     
         private static var sharedInstance:ServerManager?
-    //singletone- one instance-allow me to do a single instance.need to init only one time.
+    //singletone
         private init(){}
         public  static func getServerManager()->ServerManager
         {
@@ -18,9 +18,7 @@ class ServerManager{
             }
             return ServerManager.sharedInstance!
         }
-        //escapint in order to use from outside.
-        
-        //prepefe for request- creates the func' but yet not call it
+  
         func getArticlesListJson(completion:@escaping(ArticlesList?)->())  {
             guard let url = URL(string: "https://cdn.theculturetrip.com/home-assignment/response.json") else {return}
             URLSession.shared.dataTask(with: url){(data,respose,error) in

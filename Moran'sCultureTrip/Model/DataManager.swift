@@ -27,7 +27,5 @@ class DataManager {
     func getArticlesArray() -> [Article] {
         return self.articles
     }
-//    func addMovieData(movie:Article,indexArray:Int)  {
-//        self.articles[indexArray] = movie
-//    }
+
 }
